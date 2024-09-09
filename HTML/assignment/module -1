@@ -1,0 +1,50 @@
+Q1-ans. (No, html tags and elements both are different.)
+
+Q2-ans. Tags usually in start and end tags and enclosed in angular bracket(< >),attributes placed inside the opening tags and provied addtioanl information about element.
+for example:-<img src="image.jpg" alt="A beautiful scenery" />
+              <img> is the tag,
+              "src" is an attribute
+
+Q3-ans. Void element do not have closing tag they have only starting tag.
+           for example:-<img>, <hr>,<br>,<link> 
+
+ Q4-ans. HTML entities are reserved character and used in html page . 
+
+ Q5-and. There are three type of list :-
+           1.ordered list,
+           2.unordered list
+           3. description list.
+
+Q6-ans. Class attributes are used in styling html element with CSS and we use one and more class in html element.
+
+Q7-ans. "class" and "id" both are used for styling html element and we can use multiple class in one element but can't use multiple "id".ID must be unique.
+
+Q8-ans. There are bold text(<b></b>),itallic text(<i></i>),strong text(<strong></strong>),underlined text(<u></u>),subsrcript(<sub></sub>),
+         superscript(<sup></sup>),small(<small></small>),big(<big></big>) etc.
+
+Q9-ans. cellpadding and cellspacing are html table attribute. cellpadding is used to space inside cell and cellspacing used to space between cell.
+
+Q10-ans. we can club two or more row and columns into single row and column through rowspan and colspan.
+
+Q11-ans.Block level element occupied the full width of screen and inliine element have only required width and we can't set the height and width of inline element.
+
+Q12-ans. We can creating hyperlink using anchor tag(<a href="URL">Link Text</a> ).
+
+Q13-ans. iframe tag in html is used for link external video,maps,content in current webpage.
+
+Q14-ans. Span tag is a empty tag and it's used to styling some element with CSS.
+          for example:-<p>This is a <span style="color: red;">red</span> word in a sentence.</p>
+
+Q15-ans. We can insert a picture into background image with the background image property in CSS.
+
+Q16-ans. When we not click on a link and its just a line of code. 
+          for example:-a:link CSS selectors
+          and we click on a link its a active link and it's stying with "a:active " CSS selector.
+
+Q17-ans. we can separate section of text with  <div>, <header>,<nav>,<aside>,<main>,<hr>,<footer>.
+
+Q18-Ans. SVG is scalable vector graphics and SVG files are written in XMLcode. 
+
+Q19-ans. HTML is a forgiving language and we can write tags in lowercase, uppercase but in XHTML all tags must be in lowercase and properly closed.
+
+Q20-ANS. Logical tag describes the meaning or structure of the content and physical tag describes the presentation or appearence of the content.
