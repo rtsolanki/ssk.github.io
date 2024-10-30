@@ -1,3 +1,4 @@
+
 Q1-ans. (No, html tags and elements both are different.)
 
 Q2-ans. Tags usually in start and end tags and enclosed in angular bracket(< >),attributes placed inside the opening tags and provied addtioanl information about element.
@@ -48,3 +49,5 @@ Q18-Ans. SVG is scalable vector graphics and SVG files are written in XMLcode.
 Q19-ans. HTML is a forgiving language and we can write tags in lowercase, uppercase but in XHTML all tags must be in lowercase and properly closed.
 
 Q20-ANS. Logical tag describes the meaning or structure of the content and physical tag describes the presentation or appearence of the content.
+
+
