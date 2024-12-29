@@ -1,0 +1,58 @@
+Q1- What are the advantages of Bootstrap?
+Ans. Bootstrap has many advantages for web design, including:
+     . Responsive design.
+     . Bootstrape have Pre-built components.
+     . Bootstrap is totally customizable.
+     . Bootstrap's library has a powerful grid system.
+
+Q2. What is a Bootstrap Container, and how does it work?    
+Ans. Containers are the most basic layout element in Bootstrap and are required when using our default grid system.
+      Containers are used to contain, padding center the content within them .
+      
+      <div class="container">
+       <!-- Content here -->
+       </div>   like that
+
+Q3. What are the default Bootstrap text settings?
+Ans. Bootstrap uses a default font-size of 16px, and its line-height is 1.5. The default font-family is "Helvetica Neue",
+      Helvetica, Arial, sans-serif. In  addition, all <p> elements have margin-top: 0 and margin-bottom: 1rem .
+
+Q4. What do you know about the Bootstrap Grid System?  
+Ans. The Bootstrap grid system is a structure that uses containers, rows, and columns to arrange content on a web page. 
+      It's built with flexbox and is fully responsive.
+
+ Q5. What is the difference between Bootstrap 4 and Bootstrap 5 ?
+ Ans.   Bootstrap 4 :-
+      .Bootstrap 4 has five levels: xs, sm, md, lg, and xl.
+      .Bootstrap 4 lacks SVG icons; we must rely on font-awesome for icons.
+      .Bootstrap 4 compatible with jumbotron.
+      .There is no off-canvas element.
+
+      Bootstrap5:-
+      .Bootstrap 5 has six levels: xs, sm, md, lg, xl, and xxl.
+      .Bootstrap 5 has its own set of SVG icons.
+      .It is not compatible with jumbotron.
+      .The offcanvas component is now available.
+
+Q6. What is a Button Group, and what is the class for a basic Button Group? 
+Ans. Button Groups in Bootstrap is a class of name “btn-group” which is used to
+     create a series of buttons in groups vertically or horizontally.   
+     <div class="btn-group">
+  <button type="button" class="btn">Click</button>
+   </div>   
+
+Q7.How can you use Bootstrap to make thumbnails?
+Ans. To make a thumbnails in Bootstrap follow step :-
+     1. We add a Bootstrap and jQuery CDN link in head section. 
+     2. Then we create a div with class row and in that div we create a another div. 
+     3. And then add col classes like  “col-sm-6” and “col-md-3” in another div.
+     4. Add <a> tag with class value thumbnail to define the link of the image in the next line
+        and thumbnail is ready.
+
+Q8. In Bootstrap 4, what is flexbox?
+Ans.In Bootstrap 4, flexbox is a one-dimensional layout model that allows 
+     developers to arrange items in rows or columns, and design responsive layouts.       
+      
+Q9.  How can one create an alert in Bootstrap?
+Ans. We can create alert in Bootstrap like this:-
+     <div class="alert alert-success" role="alert"></div>.
