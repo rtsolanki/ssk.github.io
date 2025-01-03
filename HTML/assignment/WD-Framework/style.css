@@ -1,0 +1,156 @@
+
+/* common classes  */
+.btn{
+    /* background: black; */
+    padding: 0;
+  }
+    .btn button{
+        border-radius: 30px;
+        background:#a8d741;
+        transition: .2s;
+    }
+    .btn button:hover{
+        background: white;
+        transform: scale(1.1) rotate(4deg);
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    }
+    .btn2{
+      transition: .2s;
+      background: black;
+       color: white;
+    }
+    .btn .btn3{
+      background: white;
+    }
+    .btn .btn3:hover{
+      background:#a8d741;
+    }
+    .btn2:hover{
+      background: white;
+      transform: scale(1.1) rotate(4deg);
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+      color: black;
+    }
+    .hover-effect{
+        transition: .2s;
+    }
+    .hover-effect:hover{
+        transform: scale(1.03) rotate(-2deg);
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    }
+    /* common classes  */
+
+    /*  t shirt design container start */
+    .submain{
+      background: #a7d741;
+      padding: 8%;
+    }
+    .submain p:nth-child(2) {
+       font-size: 80px;
+     }
+    .text p{
+      font-size:4vh;
+    }
+    /* our feature container  */
+    .icon i{
+      font-size: 70px;
+      color:#a7d741;
+     }
+
+    /* how it work container  */
+   .uni{
+    font-size: 60px;
+   }
+ 
+   .r2{
+    background: #a7d741;
+   }
+ 
+  
+ 
+
+   /* print and slogan section  */
+
+   .print-cards{
+    background: rgba(211, 211, 211, 0.63);
+   }
+ 
+ /* Action container  */
+
+ .view-action{
+  background: #a7d741;
+ }
+ .box{
+  position: relative;
+ }
+ .action .box-icon i{
+  font-size: 70px;
+  color: #a7d741;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  transition: .50s;
+ }
+ .action .box-icon i:hover{
+  color: #8eb53b;
+ }
+ .action h1{
+  font-size: 70px;
+ }
+
+ /* Our partner container  */
+
+ .partner-card{
+  /* width: 420px; */
+  background:rgba(240, 240, 240, 0.826);
+  text-align: center;
+  padding: 25px;
+  border-radius: 40px;
+ }
+ .partner-card .p-img{
+  width: 170px;
+  height: 130px;
+  margin: auto;
+  /* margin-bottom: 15px; */
+ }
+ .p-info p{
+    font-size: 20px;
+    color: #666;
+    padding: 20px 0;
+ }
+
+ /* client container  */
+
+ .client-wrapper{
+  background:rgba(240, 240, 240, 0.826);
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 15px;
+ }
+ .cdetails{
+  width:550px;
+ }
+ /* contact container  */
+
+ .contact-card{
+  background:rgba(240, 240, 240, 0.826);
+ }
+
+ .contact-icon{
+  font-size: 70px;
+ }
+
+ /* message container  */
+
+ .message{
+  background: #a7d741;
+ }
+
+ /* google map container  */
+
+ .google-map{
+  height: 500px;
+ }
