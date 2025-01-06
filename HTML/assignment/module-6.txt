@@ -56,3 +56,18 @@ Ans.In Bootstrap 4, flexbox is a one-dimensional layout model that allows
 Q9.  How can one create an alert in Bootstrap?
 Ans. We can create alert in Bootstrap like this:-
      <div class="alert alert-success" role="alert"></div>.
+
+Q10.  What is a bootstrap card and how would you create one?
+Ans.  A card is a flexible and extensible content container.Contain images, text , link and more.
+
+      <div class="card w-25 w-md-50 w-lg-25">
+    <img class="card-img-top"
+        src="...Add a Link here.."
+        alt="https://png.pngtree.com/png-vector/20190710/ourlarge/pngtree-user-vector-avatar-png-image_1541962.jpg">
+    <div class="card-body">
+        <h5 class="card-title">Richard Taylor</h5>
+        <p class="card-text">Software Engineer </p>
+        <a href="...Add a Link here.." target="_blank"
+            class="btn btn-primary">View Profile</a>
+    </div>
+</div>
