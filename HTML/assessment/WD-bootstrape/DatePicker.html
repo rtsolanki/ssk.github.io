@@ -9,7 +9,6 @@
     <!-- Bootstrap DateTimePicker CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.47/css/bootstrap-datetimepicker.min.css">
     <style>
-        /* Custom styling for the result box */
         #output {
             margin-top: 20px;
             background-color: #007bff;
@@ -35,11 +34,6 @@
     <div class="container mt-5">
         <h1 class="text-center">Date Interval</h1>
         <form id="dateForm" class="mt-4">
-            <div class="form-row d-flex gap-3 justify-content-center align-center">
-                <!-- From Date -->
-                <div class="form-group bg-danger">
-                    <label for="fromDate " class=" d-block">From:</label>
-                    <label for="toDate" class=" d-block">To:</label>
             <div class="form-row d-flex justify-content-center">
                 <!-- From label -->
                 <div class="form-group col-md-1">
@@ -47,29 +41,21 @@
                     <label for="toDate" class="d-block">To:</label>
 
                 </div>
-                <!-- To Date -->
-                  <div class="input-container bg-warning">
-                    <div class="form-group ">
-                        <input type="text" class="form-control datetimepicker  d-block" id="fromDate" placeholder="Select Start Date">
-                        <input type="text" class="form-control datetimepicker  d-block" id="toDate" placeholder="Select End Date">
                 <!-- form input-->
                  <div class="form-group col-md-3">
                     <div class=" ">
                         <input type="text" class="form-control datetimepicker d-block" id="fromDate" placeholder="Select Start Date">
                         <input type="text" class="form-control datetimepicker d-block" id="toDate" placeholder="Select End Date">
                     </div>
-                    <div class="form-group  align-self-end">
-                        <button type="button" id="calculate" class="btn btn-primary btn-block">Calculate</button>
                     <div class="  align-self-end d-block">
                         <button type="button" id="calculate" class="btn btn-primary btn-block col-md-4">Calculate</button>
                     </div>
-                  </div>
+                 </div>
+                
             </div>
         </form>
 
-        <!-- Output Section -->
-        <div id="output" class="d-none">
-        <!-- Output -->
+        <!-- Output container -->
         <div id="output" class="d-none col-md-5 m-auto">
             <h5 id="dateRange"></h5>
             <p>In years: <span id="years"></span></p>
@@ -91,43 +77,34 @@
     <!-- script for outptu  -->
     <script>
         $(document).ready(function () {
-            // Initialize datetimepickers
             $('.datetimepicker').datetimepicker({
                 format: 'MM/DD/YYYY'
             });
 
-            // Calculate button click event
             $('#calculate').click(function () {
-                // Get selected dates
+                
                 const fromDate = $('#fromDate').data("DateTimePicker").date();
                 const toDate = $('#toDate').data("DateTimePicker").date();
 
-                // Validation: Check if both dates are selected
                 if (!fromDate || !toDate) {
                     alert("Please select both dates!");
                     return;
                 }
-
-                // Validation: Check if "From" date is earlier than "To" date
                 if (fromDate > toDate) {
                     alert("The 'From' date must be earlier than the 'To' date.");
                     return;
                 }
 
-                // Calculate intervals
                 const years = toDate.diff(fromDate, 'years');
                 const months = toDate.diff(fromDate, 'months');
                 const weeks = toDate.diff(fromDate, 'weeks');
                 const days = toDate.diff(fromDate, 'days');
 
-                // Display the results in exact format as in the image
                 $('#dateRange').text(`Date interval between ${fromDate.format('MM/DD/YYYY')} and ${toDate.format('MM/DD/YYYY')}`);
                 $('#years').text(years);
                 $('#months').text(months);
                 $('#weeks').text(weeks);
                 $('#days').text(days);
-
-                // Show output section
                 $('#output').removeClass('d-none');
             });
         });
